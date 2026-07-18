@@ -1,0 +1,4 @@
+interface:
+  display_name: "CST_Use"
+  short_description: "创建、运行、诊断并验证 CST Studio Suite 电磁仿真工程"
+  default_prompt: "Use $cst-use to create, run, and verify a CST electromagnetic simulation project."
