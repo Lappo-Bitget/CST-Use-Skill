@@ -42,6 +42,7 @@ Treat a CST task as complete only when all relevant conditions hold:
 
 - Read [references/cst-2024-workstation.md](references/cst-2024-workstation.md) for this workstation's verified paths, commands, failure recovery, and Floquet setup.
 - Read [references/modeling-and-validation.md](references/modeling-and-validation.md) when reproducing papers, modeling periodic/RIS structures, unwrapping phase, or judging agreement.
+- Read [references/ris-metasurface-modeling.md](references/ris-metasurface-modeling.md) for RIS, reflectarray/transmitarray, liquid-crystal tuning, coding states, phase-to-state mapping, subarray scaling, and far-field validation.
 - Run `scripts/cst_project_tool.py inspect <project.cst>` to verify result-tree contents and export summaries.
 - Run `scripts/cst_project_tool.py sync <project.cst> <destination-directory>` to copy a `.cst` project and its external result directory safely.
-
+- Run `scripts/ris_phase_map.py` to generate continuous or discrete RIS/reflectarray phase maps from array, feed, frequency, and scan-angle parameters before building a finite array.
